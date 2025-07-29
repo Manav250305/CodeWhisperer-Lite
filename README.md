@@ -1,9 +1,3 @@
-Perfect — let’s create a clean, informative README.md for your CodeWhisperer project.
-
-⸻
-
-✅ Sample README.md
-
 # 🧠 CodeWhisperer
 
 CodeWhisperer is a desktop app (built with Electron + React) that lets you **generate**, **improve**, and **test code** using natural language prompts via the OpenAI API.
@@ -31,21 +25,23 @@ It also includes:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/CodeWhisperer.git
-cd CodeWhisperer
+```
 
-2. Install dependencies
+### 2. Install dependencies
 
+```bash
 npm install
+```
 
-3. Set up environment variables
+### 3. Set up environment variables
 
-Create a .env file in the root directory:
-
+```env
 OPENAI_API_KEY=your-openai-key-here
+```
 
-⚠️ Make sure .env is listed in .gitignore!
+> ⚠️ Make sure `.env` is listed in `.gitignore`!
 
-⸻
+---
 
 🖥️ Run the app
 
@@ -59,7 +55,7 @@ npm run build
 npm start
 
 
-⸻
+---
 
 📂 Folder Structure
 
@@ -73,21 +69,22 @@ src/
 └── utils/        # OpenAI logic & helpers
 
 
-⸻
+---
 
 🛡️ Security Note
 
 Your OpenAI API key is securely stored in a .env file and is never exposed to the frontend.
 
-⸻
+---
 
-🧠 Powered by
-	•	Electron
-	•	React
-	•	OpenAI API
-	•	Whisper (for audio transcription)
+## 🧠 Powered by
 
-⸻
+- [Electron](https://www.electronjs.org/)
+- [React](https://react.dev/)
+- [OpenAI API](https://platform.openai.com/)
+- [Whisper](https://openai.com/research/whisper)
+
+---
 
 📜 License
 
