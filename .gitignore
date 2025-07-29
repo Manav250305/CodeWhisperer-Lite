@@ -1,0 +1,14 @@
+# node modules and build
+node_modules/
+dist/
+build/
+
+# dotenv / keys
+.env
+
+# Electron cache & logs
+*.log
+.DS_Store
+
+# VSCode
+.vscode/
