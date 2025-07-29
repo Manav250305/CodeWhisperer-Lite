@@ -1,4 +1,4 @@
-# 🧠 CodeWhisperer
+# 🧠 CodeWhisperer-Lite
 
 CodeWhisperer is a desktop app (built with Electron + React) that lets you **generate**, **improve**, and **test code** using natural language prompts via the OpenAI API.
 
@@ -59,6 +59,7 @@ npm start
 
 📂 Folder Structure
 
+```
 src/
 ├── main/         # Electron main process
 ├── preload.js    # Secure context bridging
@@ -67,7 +68,7 @@ src/
 │   ├── components/
 │   └── styles/
 └── utils/        # OpenAI logic & helpers
-
+```
 
 ---
 
